@@ -14,6 +14,8 @@ public class Textos{
 	 */
 	public ArrayList<String> diccionario(){
     ArrayList<String> info = new ArrayList<String>();
+       // Se agregan las palabras del diccionario
+       //Se lee el archivo
         File f = new File("Diccionario.txt");
     	BufferedReader entrada;
    		try 
